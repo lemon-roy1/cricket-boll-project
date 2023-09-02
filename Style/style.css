@@ -1,0 +1,32 @@
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+    
+}
+.bat{
+    transition: transform 0.2s ease-in;
+}
+.boll{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: red;
+    position: relative;
+    left: 650px;
+    transition: transform 1s ease-out 0.3s;
+    gap: 500px;
+}
+.field:hover .boll{
+    transform: translate(3030px, -300px)
+    
+} 
+.six{
+    width: 200px;
+    height: 200px;
+    font-size: 200px;
+    text-align: center;
+    background-image: linear-gradient(red, yellow, blue);
+    border-radius: 100px;
+    
+    
+}
